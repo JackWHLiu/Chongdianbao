@@ -8,7 +8,7 @@ public enum DirectStrategyA implements Direct {
 	LEFT, UP, RIGHT, DOWN;
 
 	@Override
-	public DirectStrategyA contrarotate() {
+	public Direct contrarotate() {
 		if (this == LEFT) {
 			return DOWN;
 		}
